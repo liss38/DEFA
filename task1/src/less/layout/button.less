@@ -1,0 +1,33 @@
+.button {
+
+
+	@media @desktop {
+		position: relative;
+
+		display: block;
+		padding: 12px 70px 12px 22px;
+
+		box-sizing: border-box;
+
+		border: 3px solid #000;
+
+		text-transform: uppercase;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 24px;
+
+
+		&:after {
+			position: absolute;
+			top: 50%;
+			right: 17px;
+
+			margin-top: -15px;
+
+			content: '';
+
+			display: block;
+			.sprite-icon-3()
+		}
+	}
+}
